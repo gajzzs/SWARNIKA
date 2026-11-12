@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-12T07:30:20.882Z",
+        "reason": "spent decision-round sketch from the abandoned Johari Gaddi direction; never ships"
+      },
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-12T07:30:20.902Z",
+        "reason": "spent decision-round sketch from the abandoned Johari Gaddi direction; never ships"
+      }
+    ]
+  }
+}

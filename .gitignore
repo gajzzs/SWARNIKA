@@ -1,0 +1,18 @@
+/node_modules
+/.next
+/.next-verify
+/out
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+.env*
+
+# local design-tool working files
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+
+# archived, unused image sets (includes third-party licensed photos)
+/assets-src

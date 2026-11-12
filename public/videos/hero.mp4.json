@@ -1,0 +1,7 @@
+{
+ "generator": "google/gemini-omni-1.2-flash via OpenRouter video API",
+ "date": "2026-11-12",
+ "prompt": "Ultra-luxury cinematic still-life for a fine jewellery maison. Locked-off camera. A handcrafted Indian kundan and polki diamond necklace with carved emerald drops rests on draped charcoal-black silk in near darkness. A single narrow beam of warm light very slowly drifts across the gold, making facets glint one by one. Movement is only light. Begins and ends with the same lighting so it loops. No people, no text, no watermark, no camera movement.",
+ "first_frame": "the site's /images/hero.webp still",
+ "post": "audio stripped, scaled to 1600px, h264 crf24"
+}
