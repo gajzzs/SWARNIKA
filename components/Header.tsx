@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { GOLD_RATES, RATE_DATE, SHOP } from "@/lib/data";
 import { formatINR } from "@/lib/price";
 import { Icon } from "./Icon";
+import { Mark } from "./Mark";
 import { TrousseauCount } from "./Trousseau";
 
 const LEFT = [
@@ -69,8 +70,11 @@ export function Header() {
             ))}
           </ul>
           <Link href="/" className="brand" aria-label="Swarnika, home">
-            <span className="wordmark">Swarnika</span>
-            <span className="wordmark-sub">Jaipur</span>
+            <Mark className="mark brand-mark" />
+            <span className="brand-words">
+              <span className="wordmark">Swarnika</span>
+              <span className="wordmark-sub">Jaipur</span>
+            </span>
           </Link>
           <div className="nav-tools">
             <TrousseauCount />

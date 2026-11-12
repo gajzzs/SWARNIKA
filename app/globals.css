@@ -463,11 +463,35 @@ address {
   color: var(--ink);
 }
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  padding-block: 0.6rem;
+}
+.brand-words {
   display: grid;
   justify-items: center;
   gap: 0.1rem;
-  text-decoration: none;
-  padding-block: 0.6rem;
+}
+.mark {
+  display: block;
+  height: auto;
+  flex: none;
+  overflow: visible;
+}
+.brand-mark {
+  width: clamp(1.35rem, 1.7vw, 1.6rem);
+  color: var(--gold);
+  transition: transform 0.6s var(--ease);
+}
+.brand:hover .brand-mark {
+  transform: translateY(-2px);
+}
+.foot-mark {
+  width: 2.4rem;
+  color: var(--gold-light);
+  margin-bottom: 1.1rem;
 }
 .wordmark {
   font-family: var(--f-display);
@@ -2272,7 +2296,7 @@ address {
     grid-template-columns: minmax(0, 1fr) auto;
   }
   .brand {
-    justify-items: start;
+    justify-self: start;
   }
   .seals {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2391,6 +2415,12 @@ address {
   .wordmark-sub {
     letter-spacing: 0.48em;
     text-indent: 0.48em;
+  }
+  .brand {
+    gap: 0.6rem;
+  }
+  .brand-mark {
+    width: 1.2rem;
   }
   .nav-tools {
     gap: 0.25rem;

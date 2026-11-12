@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { SHOP } from "@/lib/data";
 import { Icon } from "./Icon";
+import { Mark } from "./Mark";
 
 export function Footer() {
   return (
     <footer className="site-foot">
       <div className="wrap foot-grid">
         <div className="foot-brand">
+          <Mark className="mark foot-mark" />
           <p className="wordmark foot-wordmark">Swarnika</p>
           <p className="foot-line">{SHOP.line}</p>
           <p className="foot-sample">
